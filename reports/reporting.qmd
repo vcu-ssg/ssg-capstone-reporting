@@ -1,0 +1,14 @@
+---
+title: Simple list of projects
+author: Team Capstone
+date: last-modified
+---
+
+```{python}
+from utils import get_capstone_df
+from IPython.display import Markdown
+
+df = get_capstone_df
+
+df
+```

@@ -1,0 +1,15 @@
+project:
+    type: website
+    output-dir: ../docs
+
+format:
+    html:
+        theme: cosmos
+        css: styles.css
+        toc: true
+        embed-resources: true
+
+execute:
+    echo: false
+
+jupyter: python3
